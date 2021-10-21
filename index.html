@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+           <nav>
+               <a href="index.html"><img src="images/logo.png" alt="University Logo"> </a>
+                   <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                       <ul>
+                           <li><a href="index.html"> HOME </a></li>
+                           <li><a href="#footer"> ABOUT </a></li>
+                           <li><a href="#course"> COURSES </a></li>
+                           <li><a href=""> CONTACT </a></li>
+                       </ul>
+                   </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav> 
+           <div class="text-box">
+               <h1>World's Biggest University</h1>
+               <p>Lets build website together. We just need to learn HTML and CSS. <br> For making Website 
+            resposive we should also focus on learning Java Script</p>
+               <a href="" class="hero-btn">Visit us To Know More</a>
+           </div>
+        </section>
+<!--COURSE SECTION-->
+<section class="course" id="course">
+    <h1>Courses We Offer</h1>
+    <p>we offer computers, web development, java script programming and much much
+        more. Come and explore</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Frontend Development</h3>
+            <p>Build your web pages following atomic design principles and code 
+                your own UI kit of web components & layouts by applying the latest 
+                CSS techniques. Build pages with an adaptive design thanks to media
+                 queries and learn to quickly prototype a web app with Bootstrap 4.0 
+                 and its responsive grid system.</p>
+        </div>
+        <div class="course-col">
+            <h3>ES6</h3>
+            <p>Learn ES6, your second programming language after ruby, to add dynamic
+                 behaviors to your website or update pages without reloading thanks to AJAX. 
+                 Understand JavaScript fundamental concepts and learn to use all the necessary
+                  JS web tools like Babel, Webpack or yarn.</p>
+        </div>
+        <div class="course-col">
+            <h3>Responsive Design</h3>
+            <p>Explore Responsive Design principles and create a mobile-first experience to 
+                be used on mobile apps (iOS/Android)</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="course-col">
+            <h3>Developer tools & workflow</h3>
+            <p>Work with the right developer tools and workflow. 
+                Learn the basics of the command line, use a code text editor 
+                and install Ruby with a version management tool. Get familiar 
+                with most useful developer packages and learn how to version 
+                your code with git and push it on Github.</p>
+        </div>
+        <div class="course-col">
+            <h3>Software Architecture</h3>
+            <p>Structure your software following Object-Oriented principles. 
+                Learn the Model-View-Controller pattern in-depth (most common 
+                application design pattern) <br>by coding several MVC softwares from 
+                scratch. You will have to code everything on your own, even simulating 
+                your database storing data in CSV files.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Relational Database, SQL & ORM</h3>
+            <p>Learn to design a relational database schema and to build structured
+                 queries to your database with SQL. Build simple CRUD queries 
+                 (Create, Read, Update, Delete) or advanced JOIN queries. Learn to 
+                 connect your database to your ruby software with an ORM (Object Relational 
+                 Mapping) called Active Record.</p>
+        </div>
+    </div>
+</section>
+<!--Campus Section-->
+<section class="campus">
+    <h1>Our Global Campuses</h1>
+    <p>Offering learning platform for national and international students</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png" alt="London Campus">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/newyork.png" alt="Newyork Campus">
+            <div class="layer">
+                <h3>NEWYORK</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/washington.png" alt="Washington Campus">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---Facilities-->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Our facilities include high standard computer labs with upto data hardward systems and software
+        applications. <br> We also offer libraray and cafeteria services.
+    </p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="Library">
+            <h3>World Class Library</h3>
+            <p>Books for reknown authors and from all times of the years.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="BasketBall">
+            <h3>Basketball Courts</h3>
+            <p>To ensure well being of our students we have basketball courts and other playing fields as well.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="cafeteria">
+            <h3>Cafeteria</h3>
+            <p>We provide high quality higenic food to our students.</p>
+        </div>
+    </div>
+</section>
+
+<!-----Testimonials-->
+<section class="testimonials">
+<h1>What Our Students Says</h1>
+<p> Feeback from our studnets and their parents will help you CHOOSE US.</p>
+<div class="row">
+    <div class="testimonial-col">
+        <img src="images/user1.jpg">
+        <div>
+            <p>I had a great time here which i will never forget.</p>
+            <h3>Christine Ray</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+    </div>
+    <div class="testimonial-col">
+        <img src="images/user2.jpg">
+        <div>
+            <p>If you are looking for high quality education with exposure and guidance
+                this place is best to grow and learn.
+            </p>
+            <h3>August O</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+    </div>
+</div>
+</section>
+
+<!----- CALL TO ACTION-->
+<section class="cta">
+<h1>Enroll For Our Various Online Courses <br> From Anywhere In The World</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!----- FOOTER-->
+<section class="footer" id="footer">
+    <h4>About US</h4>
+    <p>Teaching is one of the most challenging and complex jobs on the planet. 
+        Our digital resources, tools, and learning materials are developed by educational 
+        experts to incorporate leading pedagogical practices. They are useful in any type 
+        of teaching moment and many can be used to support national education standards.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by SMK Projects</p>
+</section>
+
+
+
+        <!--Jave Script Code for Toggling Menu-->
+<script>
+    let navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    </body>
+</html>
